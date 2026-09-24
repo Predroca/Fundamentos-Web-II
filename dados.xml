@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cadastros>
+    <pessoa>
+        <codigo>001</codigo>
+        <nome>Ricardo Soares</nome>
+        <telefone>99999-0000</telefone>
+        <email>ricoboaventura@gmail.com</email>
+    </pessoa>
+    <pessoa>
+        <codigo>002</codigo>
+        <nome>Maria Silva</nome>
+        <telefone>98888-1111</telefone>
+        <email>maria@email.com</email>
+    </pessoa>
+</cadastros>
