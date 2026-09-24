@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+
+.container {
+    width: 700px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.form-box {
+    border: 2px solid #777;
+    padding: 20px 35px;
+    margin-bottom: 18px;
+    min-height: 220px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.form-row label {
+    width: 100px;
+    font-weight: bold;
+}
+
+.form-row input {
+    width: 260px;
+    height: 30px;
+    border: 1px solid #aaa;
+    padding: 5px 8px;
+    font-size: 15px;
+}
+
+.form-row input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+button {
+    margin-top: 5px;
+    padding: 7px 14px;
+    border: 1px solid #888;
+    background: #e9e9e9;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #dcdcdc;
+}
+
+.secondary {
+    margin-left: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#mensagem {
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.sucesso {
+    color: #167c2f;
+}
+
+.erro {
+    color: #b00020;
+}
+
+.table-box {
+    border: 2px solid #777;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #eeeecc;
+}
+
+th, td {
+    border-bottom: 1px solid #aaa;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    font-size: 16px;
+}
+
+td {
+    font-size: 15px;
+}
+
+.acoes {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.acao {
+    border: none;
+    background: transparent;
+    padding: 2px 5px;
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.acao:hover {
+    background: #eee;
+}
+
+.editar {
+    color: #d18b00;
+}
+
+.excluir {
+    color: #c62828;
+}
+
+.vazio {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 15px;
+    }
+
+    .form-box {
+        padding: 15px;
+    }
+
+    .form-row {
+        display: block;
+    }
+
+    .form-row label {
+        display: block;
+        width: auto;
+        margin-bottom: 4px;
+    }
+
+    .form-row input {
+        width: 100%;
+    }
+}
